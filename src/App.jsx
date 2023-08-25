@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div >
 
-      <div className=' bg-image-mobile bg-cover bg-no-repeat max-h-full h-screen  md:bg-none '>
+      <div className=' bg-image-mobile bg-cover  md:bg-none '>
 
       <nav className="flex justify-between container mx-auto py-8 md:w-full">
         <img src="../public/images/hamburger-menu.svg" alt="This is a hamburguer menu image" className="w-7" />
@@ -31,7 +31,7 @@ export default function App() {
         {/* Carrousel end */}
 
         {/* Background Section */}
-        <section className='text-white text-center md:bg-image md: bg-cover h-screen md: bg-no-repeat md:mt-5 md:mx-5 md:h-80 lg:bg-cover lg:mx-10 lg:mt-10'>
+        <section className='text-white text-center md:bg-image md:bg-cover md:h-screen md: bg-no-repeat md:mt-5 md:mx-5 md:h-80 lg:bg-cover lg:mx-10 lg:mt-10'>
           
           <div className='mt-56 flex-col gap-x-20 md:mt-0'>
             <h1 className='text-2xl font-extrabold' >Live the emotion of manga</h1>
@@ -45,8 +45,8 @@ export default function App() {
       </div>
      
     
-      <footer className='bg-white mt-5 md:mt-44'>
-        <img src="./public/images/footer/footer-img.svg" alt="" />
+      <footer className='bg-white mt-5  md:mt-44'>
+        <img className="" src="./public/images/footer/footer-img.svg" alt="" />
 
         <div className='flex justify-around'>
           <div className='text-xs' >
